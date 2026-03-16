@@ -71,6 +71,12 @@ export default function YouthIndex() {
       <div className="max-w-3xl mx-auto">
         <h1 className="brand-title">YOUTH INDEX</h1>
 
+        {/* 🛡️PR表記＆免責事項エリア（ここに追加しました！） */}
+        <div className="bg-gray-50 border border-gray-200 p-3 rounded-md mb-6 text-xs text-gray-500 text-center leading-relaxed shadow-sm">
+          ※当サイトはアフィリエイトプログラムに参加しており、紹介リンクにはPR（広告）が含まれます。<br />
+          ※割引情報や料金は予告なく変更される場合があります。必ず公式サイトで最新の情報を確認してください。
+        </div>
+
         {/* 検索エリア */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-8">
           <div className="relative mb-4">
